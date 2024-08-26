@@ -1,0 +1,27 @@
+~ Pagina estatica que muestre los personajes, de sonic (al menos 40) tal cual como el boceto en canvas. opcional, que sea didactica
+✅❌❕
+
+Cosas a resolver:
+
+- Uso del flex, para que las imagenes se muestren en una linea horizontal de 5 ✅
+- Poner un footer con la info puesta en el boceto con un buen diseño ✅
+- En el input del header, poner "Buscar..." ✅
+- Agregar borde y contorno a "SpeedPedia" ✅
+- Cambiar Colores de background y Header ✅
+- Poner asi sea una animacion a la hora de poner el mouse sobre un personaje
+- Cambiar fuente, colores y borde a las letras de los personajes ❕
+- Que no haya errores en el Box-Sizing ✅
+- Logo ✅
+- Copyright ✅
+- link a otra pagina, que el boton de redireecion a la pagina sea aestetico 
+- Boton al lado del input "Buscar" ✅
+-
+
+
+Cosas que talvez esten:
+- Que cada personaje tenga un HTML propio, en el cual tenga una descripcion simple 
+- Mas de una animacion 
+- background Gradiente o de imagen ❌ (No se pudo ya que la imagen debe ser de una resolucion a la que se adapte la pagina)
+-
+-
+

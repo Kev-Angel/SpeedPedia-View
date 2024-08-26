@@ -1,0 +1,220 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+.encabezado {
+    background-color: rgb(112, 168, 205);
+    padding: 8px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.SpeedPedia {
+    color:rgb(229, 229, 229);
+    border-color: blanchedalmond;
+    display: inline-flex;
+    flex: content;
+    justify-content:left;
+    width: 40px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3px;
+    margin-left: 10px;
+}
+
+.Logo {
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+.input_1{
+    background-color:rgb(243, 238, 233);
+    padding: 7px;
+    border-color: brown;
+    justify-content: end;
+}
+
+.Boton_1{
+    padding: 4px;
+    margin: 4px;
+}
+
+.parrafo_inicial {
+    padding: 36px;
+    justify-content: center;
+    padding: 30px;
+    margin: 15px;
+    border: 2.5px solid rgb(40, 87, 124);
+    border-radius: 15px;
+    background-color: rgb(221, 224, 230);
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:inherit;
+    animation-name: animacion_1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.articulo {
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: rgb(69, 69, 69);
+
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.imagenes_personajes {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+    margin: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estos son los hovers para darle la transicion de escala (tamaño) a cada imagen, las cuales funcionan cuando el mouse esta encima */
+
+.sonic:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.tails:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.silver:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.eggman:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.blaze:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.amy:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.Knuckles:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.Shadow:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.Vector:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.rouge:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.cream:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.espio:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.metal_sonic:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.omega:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.emerl:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.jet:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.wave:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.chao:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.mephiles:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.cosmo:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.eggman_nega:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.charmy:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.big:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.wisp:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.tails_doll:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.sticks:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.vainilla:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.orbot:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.cubot:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+.marine:hover .imagenes_personajes{
+    transform: scale(1.2);
+}
+
+/* Cierre de los hovers */
+
+.pie_de_pagina {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    background-color: rgb(112, 168, 205);
+    margin-top: 40px;
+}
+
+.contacto {
+    color: rgb(255, 239, 254);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+.Mas_info {
+    text-decoration: none;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    margin-right: 30px;
+}
+
+.copyright {
+    color: aliceblue;
+}
+
+
+
+@keyframes animacion_1 {
+    0% {background-color:rgb(221, 224, 230);}
+    20% {background-color:rgb(243, 255, 195);}
+    40% {background-color:rgb(178, 255, 213);}
+    60% {background-color:rgb(246, 198, 198);}
+    80% {background-color:rgb(245, 177, 238);}
+    100% {background-color:rgb(221, 224, 230);}
+}
+

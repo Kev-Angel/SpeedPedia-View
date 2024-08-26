@@ -1,0 +1,12 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+}
